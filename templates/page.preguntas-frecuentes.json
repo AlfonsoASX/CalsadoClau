@@ -122,7 +122,7 @@
           "settings": {
             "heading": "¿Es seguro usar mi tarjeta de crédito en su página?",
             "icon": "lock",
-            "row_content": "<p>Es seguro usar tu tarjeta de crédito en nuestra página. Lady Paulina es un sitio 100% seguro y cuenta con certificados de seguridad SSL que protegen tus datos durante la transacción. Además, no almacenamos los datos de tu tarjeta, garantizando una mayor seguridad y privacidad en cada compra. Para más información consulta nuestros Aviso de privacidad y Términos y Condiciones.</p>",
+            "row_content": "<p>Es seguro usar tu tarjeta de crédito en nuestra página. Calzado Clau es un sitio 100% seguro y cuenta con certificados de seguridad SSL que protegen tus datos durante la transacción. Además, no almacenamos los datos de tu tarjeta, garantizando una mayor seguridad y privacidad en cada compra. Para más información consulta nuestros Aviso de privacidad y Términos y Condiciones.</p>",
             "page": ""
           }
         }
@@ -278,7 +278,7 @@
           "settings": {
             "heading": "¿Tienen tiendas físicas?",
             "icon": "check_mark",
-            "row_content": "<p>Sí, contamos con tiendas físicas. Si deseas conocer la ubicación y los horarios de atención, puedes consultarlos en el siguiente enlace  <a href=\"https://ladypaulina.com/pages/encuentra-tu-tienda-lady-paulina-mas-cercana\" target=\"_blank\" title=\"Ubicación tiendas\">aquí</a></p>",
+            "row_content": "<p>Sí, contamos con tiendas físicas. Si deseas conocer la ubicación y los horarios de atención, puedes consultarlos en el siguiente enlace <a href=\"https://calzadoclau.com/pages/tiendas\" target=\"_blank\" title=\"Ubicación tiendas\">aquí</a></p>",
             "page": ""
           }
         },

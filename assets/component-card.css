@@ -140,6 +140,10 @@
 
 .card__badge {
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex-start;
   grid-row-start: 3;
   justify-self: flex-start;
 }
@@ -150,7 +154,34 @@
 }
 
 .card__badge.right {
+  align-items: flex-end;
   justify-self: flex-end;
+}
+
+.product-card-badge {
+  border: 0;
+  box-shadow: 0 0.2rem 0.8rem rgba(var(--color-base-text), 0.12);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  line-height: 1.1;
+  padding: 0.55rem 1.1rem;
+  text-transform: uppercase;
+}
+
+.product-card-badge--new {
+  background-color: #B88925;
+  color: #ffffff;
+}
+
+.product-card-badge--best-seller {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.product-card-badge--sale {
+  background-color: #C74343;
+  color: #ffffff;
 }
 
 .card:not(.card--horizontal) > .card__content > .card__badge {

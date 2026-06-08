@@ -41,8 +41,8 @@
         "brand_information_HJfL8p"
       ],
       "custom_css": [
-        ".footer__list-social li a {background: #cc3180; border-radius: 100px; color: white; margin: 2px;}",
-        "footer,footer img {background: #ffeaf5;}",
+        ".footer__list-social li a {background: #B88925; border-radius: 100px; color: white; margin: 2px;}",
+        "footer,footer img {background: #F7F7F7;}",
         "footer div {border: none;}",
         "footer input {background: white;}"
       ],

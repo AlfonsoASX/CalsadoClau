@@ -1,0 +1,250 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .customer-testimonials-{{ section.id }} {
+    background: rgb(var(--color-background));
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__header {
+    max-width: 72rem;
+    margin: 0 auto 3.2rem;
+    text-align: center;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__heading {
+    margin: 0;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__subheading {
+    margin: 1rem auto 0;
+    color: rgba(var(--color-foreground), 0.72);
+    font-size: 1.5rem;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__grid {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: 1fr;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__card {
+    border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+    border-radius: 0.8rem;
+    background: #ffffff;
+    padding: 2.2rem;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__stars {
+    color: #B88925;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    margin-bottom: 1.6rem;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__quote {
+    color: rgb(var(--color-foreground));
+    font-size: 1.5rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__author {
+    font-weight: 600;
+    margin: 2rem 0 0;
+  }
+
+  .customer-testimonials-{{ section.id }} .customer-testimonials__meta {
+    color: rgba(var(--color-foreground), 0.62);
+    font-size: 1.3rem;
+    margin: 0.4rem 0 0;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .customer-testimonials-{{ section.id }} .customer-testimonials__grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+{%- endstyle -%}
+
+<section class="customer-testimonials customer-testimonials-{{ section.id }} color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank or section.settings.subheading != blank -%}
+      <div class="customer-testimonials__header">
+        {%- if section.settings.heading != blank -%}
+          <h2 class="customer-testimonials__heading h1">{{ section.settings.heading | escape }}</h2>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <div class="customer-testimonials__subheading rte">{{ section.settings.subheading }}</div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="customer-testimonials__grid">
+      {%- for block in section.blocks -%}
+        {%- assign rating = block.settings.rating | plus: 0 -%}
+        <article class="customer-testimonials__card" {{ block.shopify_attributes }}>
+          <div
+            class="customer-testimonials__stars"
+            role="img"
+            aria-label="{{ rating }} de 5 estrellas"
+          >
+            {%- for index in (1..5) -%}
+              {%- if index <= rating -%}
+                <span aria-hidden="true">&#9733;</span>
+              {%- else -%}
+                <span aria-hidden="true">&#9734;</span>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+          {%- if block.settings.quote != blank -%}
+            <p class="customer-testimonials__quote">{{ block.settings.quote | escape }}</p>
+          {%- endif -%}
+          {%- if block.settings.author != blank -%}
+            <p class="customer-testimonials__author">{{ block.settings.author | escape }}</p>
+          {%- endif -%}
+          {%- if block.settings.meta != blank -%}
+            <p class="customer-testimonials__meta">{{ block.settings.meta | escape }}</p>
+          {%- endif -%}
+        </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Opiniones de clientas",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Opiniones de clientas",
+      "label": "Titulo"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "default": "<p>Experiencias reales con estilos pensados para acompanarte todos los dias.</p>",
+      "label": "Texto"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "Acento 1"
+        },
+        {
+          "value": "accent-2",
+          "label": "Acento 2"
+        },
+        {
+          "value": "background-1",
+          "label": "Fondo 1"
+        },
+        {
+          "value": "background-2",
+          "label": "Fondo 2"
+        },
+        {
+          "value": "inverse",
+          "label": "Inverso"
+        }
+      ],
+      "default": "background-1",
+      "label": "Colores"
+    },
+    {
+      "type": "header",
+      "content": "Espaciado"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Espacio superior",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Espacio inferior",
+      "default": 44
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonio",
+      "settings": [
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Estrellas",
+          "default": 5
+        },
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Comentario",
+          "default": "Me encantaron los zapatos y llegaron muy rapido."
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Nombre",
+          "default": "Cliente Calzado Clau"
+        },
+        {
+          "type": "text",
+          "id": "meta",
+          "label": "Producto, ciudad o nota",
+          "default": "Compra verificada"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Opiniones de clientas",
+      "blocks": [
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

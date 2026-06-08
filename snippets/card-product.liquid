@@ -31,6 +31,7 @@
     if ratio == 0 or ratio == null
       assign ratio = 1
     endif
+    assign product_tag_handles = card_product.tags | join: ',' | downcase | prepend: ',' | append: ','
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
@@ -116,21 +117,29 @@
               </a>
             </h3>
           </div>
-          <div class="card__badge {{ settings.badge_position }}">
+          <div id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
-                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
+                class="badge product-card-badge product-card-badge--sold-out badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
               >
                 {{- 'products.product.sold_out' | t -}}
               </span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span
-                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-              >
-                {{- 'products.product.on_sale' | t -}}
-              </span>
+            {%- else -%}
+              {%- if card_product.compare_at_price > card_product.price -%}
+                <span class="badge product-card-badge product-card-badge--sale badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
+                  {{- 'products.product.on_sale' | t -}}
+                </span>
+              {%- endif -%}
+              {%- if product_tag_handles contains ',nuevo,' -%}
+                <span class="badge product-card-badge product-card-badge--new badge--bottom-left">
+                  {{- 'products.product.new_badge' | t -}}
+                </span>
+              {%- endif -%}
+              {%- if product_tag_handles contains ',mas-vendido,' -%}
+                <span class="badge product-card-badge product-card-badge--best-seller badge--bottom-left">
+                  {{- 'products.product.best_seller_badge' | t -}}
+                </span>
+              {%- endif -%}
             {%- endif -%}
           </div>
         </div>
@@ -313,21 +322,29 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-        <div class="card__badge {{ settings.badge_position }}">
+        <div id="Badge-{{ section_id }}-{{ card_product.id }}" class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span
-              id="Badge-{{ section_id }}-{{ card_product.id }}"
-              class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
+              class="badge product-card-badge product-card-badge--sold-out badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
             >
               {{- 'products.product.sold_out' | t -}}
             </span>
-          {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-            <span
-              id="Badge-{{ section_id }}-{{ card_product.id }}"
-              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-            >
-              {{- 'products.product.on_sale' | t -}}
-            </span>
+          {%- else -%}
+            {%- if card_product.compare_at_price > card_product.price -%}
+              <span class="badge product-card-badge product-card-badge--sale badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
+                {{- 'products.product.on_sale' | t -}}
+              </span>
+            {%- endif -%}
+            {%- if product_tag_handles contains ',nuevo,' -%}
+              <span class="badge product-card-badge product-card-badge--new badge--bottom-left">
+                {{- 'products.product.new_badge' | t -}}
+              </span>
+            {%- endif -%}
+            {%- if product_tag_handles contains ',mas-vendido,' -%}
+              <span class="badge product-card-badge product-card-badge--best-seller badge--bottom-left">
+                {{- 'products.product.best_seller_badge' | t -}}
+              </span>
+            {%- endif -%}
           {%- endif -%}
         </div>
       </div>

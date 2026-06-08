@@ -110,6 +110,8 @@
       "add_to_cart": "Agregar al carrito",
       "description": "Descripción",
       "on_sale": "Rebaja",
+      "new_badge": "Nuevo",
+      "best_seller_badge": "Más vendido",
       "product_variants": "Variantes de producto",
       "quantity": {
         "label": "Cantidad",

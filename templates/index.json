@@ -330,7 +330,7 @@
         "description_style": "body",
         "collection": "primavera-verano-2026",
         "products_to_show": 8,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "link",
@@ -354,7 +354,7 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "caption": "Namibia - Lady Paulina Confort",
+            "caption": "Namibia - Calzado Clau Confort",
             "heading": "Estilo Que Se Siente",
             "text": "<p>Comodidad en cada paso. 🥿✨</p>",
             "button_label": "👉 Encuentra tu Favorito",
@@ -365,7 +365,7 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "caption": "Clarisa - Lady Paulina",
+            "caption": "Clarisa - Calzado Clau",
             "heading": "Glamour en Cada Paso",
             "text": "<p>Tus aliadas perfecta para destacar. 👠<strong>✨</strong></p>",
             "button_label": "💫 Consíguelas Hoy",
@@ -400,8 +400,8 @@
         "instafeed_app_block_dpP4fi": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "¡Síguenos en Instagram! @ladypaulinamx",
-            "title_color": "#cc3180",
+            "title": "¡Síguenos en Instagram!",
+            "title_color": "#B88925",
             "title_size_v2": 0,
             "alignment": "center",
             "instafeed_margin_top": 0,
@@ -409,7 +409,7 @@
             "instafeed_margin_sides": 0,
             "show_instagram_link": true,
             "link_alignment": "center",
-            "link_color": "#cc3180",
+            "link_color": "#B88925",
             "background_color": "rgba(0,0,0,0)",
             "feed_id": "",
             "html_area": ""
@@ -472,15 +472,94 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "customer_testimonials": {
+      "type": "customer-testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "quote": "Me encantó la calidad y llegaron súper rápido. Los zapatos se ven tal como en las fotos.",
+            "author": "Mariana G.",
+            "meta": "Compra verificada"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "quote": "Muy cómodos para usarlos todo el día. La talla me quedó perfecta.",
+            "author": "Laura M.",
+            "meta": "León, Gto."
+          }
+        },
+        "testimonial_3": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "quote": "Buena atención y el paquete llegó protegido. Volvería a comprar.",
+            "author": "Andrea R.",
+            "meta": "Cliente Calzado Clau"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2",
+        "testimonial_3"
+      ],
+      "settings": {
+        "heading": "Opiniones de clientas",
+        "subheading": "<p>Experiencias reales con estilos pensados para acompañarte todos los días.</p>",
+        "color_scheme": "background-1",
+        "padding_top": 56,
+        "padding_bottom": 44
+      }
+    },
+    "newsletter_discount": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Obtén 15% de descuento",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Regístrate y recibe novedades, lanzamientos y ofertas exclusivas de Calzado Clau.</p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
     }
   },
   "order": [
     "3cded2de-18f0-47ce-ba3c-51491fb61673",
     "b27b4316-8541-4f98-a28d-86585573f93e",
     "d7da1bfb-1266-4316-8e3e-d1173eefb114",
+    "customer_testimonials",
     "featured_collection",
     "multirow_UXqzyY",
     "17328927497a0de5c5",
+    "newsletter_discount",
     "0add853d-6b69-4e4c-accb-ef0448894f1d",
     "cf6455a4-f7fa-415c-ac25-93b0fbb4425c"
   ]
