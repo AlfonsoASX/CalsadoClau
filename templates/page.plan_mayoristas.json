@@ -1,0 +1,170 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_PMGwzN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XTQ9iq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1><strong>¿Te interesa vender nuestros estilos?</strong></h1>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XTQ9iq"
+      ],
+      "name": "Encabezado",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "slideshow_VfytqX": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_NpGfH3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8289_43a165d4-d077-4dd5-88ec-e0e1d5a0adbc.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NpGfH3"
+      ],
+      "name": "Imagen",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "rich_text_N3EjRL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mywMF4": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>¡Únete a nuestro <em>Plan de Mayoristas!</em></h1>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mywMF4"
+      ],
+      "name": "Subtitulo",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_LndWzD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_JH7QFw": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>➡️ 6 pares por estilo/color — ¡Tú eliges la<br/>numeración!</h2><h2>➡️ Envío inmediato</h2><h2>➡️ Promociones especiales</h2><h2>➡️ Nuevos modelos de forma continua</h2><h2>➡️ Atención personalizada</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_JH7QFw"
+      ],
+      "name": "Beneficios",
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_7JHhBX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_UJPwHL": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Haz tu pedido por WhatsApp dando clic en el botón.</h2>"
+          }
+        },
+        "button_VUqrbF": {
+          "type": "button",
+          "settings": {
+            "button_label": "(477) 3923211",
+            "button_link": "https://wa.me/+524773923211",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_UJPwHL",
+        "button_VUqrbF"
+      ],
+      "name": "Contacto",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_PMGwzN",
+    "slideshow_VfytqX",
+    "rich_text_N3EjRL",
+    "rich_text_LndWzD",
+    "rich_text_7JHhBX"
+  ]
+}

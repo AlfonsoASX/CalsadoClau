@@ -1,0 +1,487 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "3cded2de-18f0-47ce-ba3c-51491fb61673": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_hMamkN": {
+          "type": "slide",
+          "name": "Banner Para mamá con Amor",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_PRINCIPAL_a7303f20-4eba-4e5b-9654-499ea2f51db0.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YqpN3p": {
+          "type": "slide",
+          "name": "Nueva Colección SS26",
+          "settings": {
+            "image": "shopify://shop_images/Banner_abril.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/primavera-verano-2026",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fLiewj": {
+          "type": "slide",
+          "name": "Rebajas 1",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_PRINCIPAL_a274742a-440c-40d7-8cc4-502823443fec.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Ver Rebajas",
+            "link": "shopify://collections/rebajas",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YPQCH7": {
+          "type": "slide",
+          "name": "Rebajas 2",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_PRINCIPAL_79411098-93a3-4dfc-8030-c656569e148e.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Ver Rebajas",
+            "link": "shopify://collections/rebajas",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_KU3xEn": {
+          "type": "slide",
+          "name": "Confort",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_PRINCIPAL_98edd322-74e2-443b-9d2a-cddc530137b7.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Explora la colección",
+            "link": "shopify://collections/oi25",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hMamkN",
+        "slide_YqpN3p",
+        "slide_fLiewj",
+        "slide_YPQCH7",
+        "slide_KU3xEn"
+      ],
+      "name": "Diapositiva escritorio",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "b27b4316-8541-4f98-a28d-86585573f93e": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_w8HCyz": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOVIL_12f5af12-0cca-4b4d-99d5-5723dea87851.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_f8fe4C": {
+          "type": "slide",
+          "name": "Rebajas 1",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOVIL.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/oi25",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_dyxraY": {
+          "type": "slide",
+          "name": "Rebajas 2",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/GIF-1200.gif",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/rebajas",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_RWqp3e": {
+          "type": "slide",
+          "name": "Nueva Coleccion SS26",
+          "settings": {
+            "image": "shopify://shop_images/Banner_movil_abril_368b3196-28d7-458d-b418-059558896131.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections",
+            "button_style_secondary": true,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_w8HCyz",
+        "slide_f8fe4C",
+        "slide_dyxraY",
+        "slide_RWqp3e"
+      ],
+      "name": "Diapositiva movil",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "d7da1bfb-1266-4316-8e3e-d1173eefb114": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SANDALIAS_199cf24f-6845-4699-8967-6801ce5fb8f8.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/sandalia"
+          }
+        },
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BALERINAS_Y_MOCASINES.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/balerinas-y-mocasines"
+          }
+        },
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ZAPATILLAS.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/zapatilla"
+          }
+        },
+        "6da1d28d-616a-49ce-b7b7-ccafa6dbacc0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TENIS.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/tenisladypaulina"
+          }
+        },
+        "7b48c036-18bf-42eb-a0c9-2e7366cda03e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BOTAS_Y_BOTINES.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/bota-y-botin"
+          }
+        },
+        "7e0d5d8e-876b-4a21-9f6b-59044c96b016": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BOLSAS_Y_ACCESORIOS.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/accesorios"
+          }
+        }
+      },
+      "block_order": [
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-0",
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-1",
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-2",
+        "6da1d28d-616a-49ce-b7b7-ccafa6dbacc0",
+        "7b48c036-18bf-42eb-a0c9-2e7366cda03e",
+        "7e0d5d8e-876b-4a21-9f6b-59044c96b016"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Nueva Temporada",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "primavera-verano-2026",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_UXqzyY": {
+      "type": "multirow",
+      "blocks": {
+        "row_8pNAYL": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "Namibia - Lady Paulina Confort",
+            "heading": "Estilo Que Se Siente",
+            "text": "<p>Comodidad en cada paso. 🥿✨</p>",
+            "button_label": "👉 Encuentra tu Favorito",
+            "button_link": "shopify://collections/balerinas-y-mocasines"
+          }
+        },
+        "row_ER6aYL": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "Clarisa - Lady Paulina",
+            "heading": "Glamour en Cada Paso",
+            "text": "<p>Tus aliadas perfecta para destacar. 👠<strong>✨</strong></p>",
+            "button_label": "💫 Consíguelas Hoy",
+            "button_link": "shopify://collections/zapatilla"
+          }
+        }
+      },
+      "block_order": [
+        "row_8pNAYL",
+        "row_ER6aYL"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "subtitle",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "right",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "17328927497a0de5c5": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_dpP4fi": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "¡Síguenos en Instagram! @ladypaulinamx",
+            "title_color": "#cc3180",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 25,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "center",
+            "link_color": "#cc3180",
+            "background_color": "rgba(0,0,0,0)",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_dpP4fi"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "0add853d-6b69-4e4c-accb-ef0448894f1d": {
+      "type": "image-banner",
+      "name": "Banner movil",
+      "settings": {
+        "image": "shopify://shop_images/Banner_Mobile_695_x_1024_px_2_0fbe14bf-19ea-4341-bc7d-fb3a0727affe.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "cf6455a4-f7fa-415c-ac25-93b0fbb4425c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18487427236141__cf6455a4-f7fa-415c-ac25-93b0fbb4425c-1684488579a43a9551-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify://pages/tiendas",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18487427236141__cf6455a4-f7fa-415c-ac25-93b0fbb4425c-1684488579a43a9551-2"
+      ],
+      "disabled": true,
+      "name": "Banner escritorio",
+      "settings": {
+        "image": "shopify://shop_images/BANNER_DE_TIENDAS_NUEVAS.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "3cded2de-18f0-47ce-ba3c-51491fb61673",
+    "b27b4316-8541-4f98-a28d-86585573f93e",
+    "d7da1bfb-1266-4316-8e3e-d1173eefb114",
+    "featured_collection",
+    "multirow_UXqzyY",
+    "17328927497a0de5c5",
+    "0add853d-6b69-4e4c-accb-ef0448894f1d",
+    "cf6455a4-f7fa-415c-ac25-93b0fbb4425c"
+  ]
+}

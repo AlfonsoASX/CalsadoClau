@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_V6i7yH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_7xARDh": {
+          "type": "collapsible_row",
+          "name": "Realizar pedido",
+          "settings": {
+            "heading": "¿Cómo puedo hacer una compra de manera segura y efectiva?",
+            "icon": "clipboard",
+            "row_content": "<p>Selecciona el artículo y talla: Primero, navega por el sitio web y elige el artículo que deseas comprar. Asegúrate de seleccionar la talla correcta u otras opciones necesarias, como color o cantidad.<br/><br/>Añade al carrito: Cuando hayas decidido qué comprar, haz clic en el botón \"Agregar al carrito\" para incluir el artículo en tu compra.<br/><br/>Revisa tu carrito: Dirígete al carrito de compras para verificar que todos los artículos que deseas comprar estén ahí. Aquí puedes ajustar las cantidades o eliminar artículos si es necesario.<br/><br/>Selecciona pagar pedido: Una vez que estés listo para proceder con la compra, busca y haz clic en el botón \"Pagar pedido\" o \"Finalizar compra\".<br/><br/>Confirma y realiza tu pedido: En esta etapa, revisa cuidadosamente toda la información de tu compra antes de confirmar el pedido. Asegúrate de que la dirección de envío y la información de pago sean correctas. Cuando estés listo, haz clic en el botón para finalizar el pedido.<br/><br/>Recibe la confirmación: Después de completar el proceso de compra, recibirás un correo electrónico con la confirmación de tu pedido. Este correo incluirá un resumen de los artículos comprados, el total pagado y el número de pedido correspondiente.<br/><br/>Espera el envío: Una vez confirmado el pedido, el sitio web te informará sobre la preparación y el envío de tu compra a la dirección proporcionada. Puedes seguir el estado del envío a través del correo de confirmación o revisando la sección de \"Mis pedidos\" en el sitio web.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MGyAbE": {
+          "type": "collapsible_row",
+          "name": "Tiempo entrega",
+          "settings": {
+            "heading": "¿Cuál es el tiempo de entrega?",
+            "icon": "stopwatch",
+            "row_content": "<p>El tiempo de entrega con nuestro servicio de paquetería es de 5 a 7 días hábiles a partir de la confirmación del envío. Este plazo comienza desde que el proveedor de paquetería recoge el pedido. Ten en cuenta que este periodo no incluye el tiempo necesario para preparar el pedido antes de ser enviado.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qaMFri": {
+          "type": "collapsible_row",
+          "name": "Costo envio",
+          "settings": {
+            "heading": "¿Cuál es el costo de envió?",
+            "icon": "price_tag",
+            "row_content": "<p>El envío será gratuito si tu compra es igual o mayor a $1,299.00. Para compras de menor monto, el costo de envío será de $149.00.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7ipTqB": {
+          "type": "collapsible_row",
+          "name": "Envios  nacionales",
+          "settings": {
+            "heading": "¿Hacen envíos a toda la Republica Mexicana?",
+            "icon": "box",
+            "row_content": "<p>Ofrecemos envíos nacionales utilizando diferentes paqueterías. La selección de la paquetería se realiza en función de tu código postal y la fecha de entrega estimada. Esto nos permite asegurar que tu pedido llegue de manera rápida y segura a tu dirección.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KaAzFf": {
+          "type": "collapsible_row",
+          "name": "Envio internacional",
+          "settings": {
+            "heading": "¿Hacen envíos internacionales?",
+            "icon": "truck",
+            "row_content": "<p>Por el momento, solo ofrecemos envíos dentro de México. No contamos con opciones para envíos internacionales. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_7xARDh",
+        "collapsible_row_MGyAbE",
+        "collapsible_row_qaMFri",
+        "collapsible_row_7ipTqB",
+        "collapsible_row_KaAzFf"
+      ],
+      "name": "Envios",
+      "settings": {
+        "caption": "",
+        "heading": "Envíos",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_F3WMbX": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Qak79J": {
+          "type": "collapsible_row",
+          "name": "Pago",
+          "settings": {
+            "heading": "¿Cuáles son los métodos de pago?",
+            "icon": "price_tag",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_63FFEi": {
+          "type": "collapsible_row",
+          "name": "MSI",
+          "settings": {
+            "heading": "¿Cuentan con Meses Sin Intereses?",
+            "icon": "question_mark",
+            "row_content": "<p>Ofrecemos la opción de pagar a meses sin intereses a través de Aplazo. Durante el proceso de compra, al seleccionar Aplazo como método de pago, podrás elegir el plan de pagos que mejor se ajuste a tus necesidades.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FDgA66": {
+          "type": "collapsible_row",
+          "name": "Pago seguro",
+          "settings": {
+            "heading": "¿Es seguro usar mi tarjeta de crédito en su página?",
+            "icon": "lock",
+            "row_content": "<p>Es seguro usar tu tarjeta de crédito en nuestra página. Lady Paulina es un sitio 100% seguro y cuenta con certificados de seguridad SSL que protegen tus datos durante la transacción. Además, no almacenamos los datos de tu tarjeta, garantizando una mayor seguridad y privacidad en cada compra. Para más información consulta nuestros Aviso de privacidad y Términos y Condiciones.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Qak79J",
+        "collapsible_row_63FFEi",
+        "collapsible_row_FDgA66"
+      ],
+      "name": "Metodos de pago",
+      "settings": {
+        "caption": "",
+        "heading": "Métodos de pago",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_EeDmU8": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aMkWKR": {
+          "type": "collapsible_row",
+          "name": "Facturan?",
+          "settings": {
+            "heading": "¿Emiten factura?",
+            "icon": "question_mark",
+            "row_content": "<p>Sí, podemos emitir la factura de tu compra, tienes un plazo de 1 día para solicitarla a partir de la fecha de tu compra.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7cibFn": {
+          "type": "collapsible_row",
+          "name": "Facturar pedido",
+          "settings": {
+            "heading": "¿Cómo puedo facturar mi compra?",
+            "icon": "question_mark",
+            "row_content": "<p>Para solicitar tu factura, envía un mensaje por WhatsApp al <a href=\"https://wa.me/+524772855834\" target=\"_blank\" title=\"WhatsApp\">477 285 5834</a> con tu constancia fiscal y el uso de CFDI. Asegúrate de hacerlo dentro del plazo para que podamos procesar tu solicitud a tiempo.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aMkWKR",
+        "collapsible_row_7cibFn"
+      ],
+      "name": "Facturacíon",
+      "settings": {
+        "caption": "",
+        "heading": "Facturación",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_8Yx9q6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_QJMejV": {
+          "type": "collapsible_row",
+          "name": "Material",
+          "settings": {
+            "heading": "¿De qué material están hechos sus productos?",
+            "icon": "shoe",
+            "row_content": "<p>Nuestros productos están fabricados con materiales sintéticos de alta calidad. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_J3VgqC": {
+          "type": "collapsible_row",
+          "name": "Tallas",
+          "settings": {
+            "heading": "¿Qué tallas manejan?",
+            "icon": "ruler",
+            "row_content": "<p>Nuestros productos están disponibles en tallas que van desde la 22 hasta la 27, incluyendo medios puntos. Ten en cuenta que la disponibilidad de cada talla puede variar según el modelo. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ni4qAd": {
+          "type": "collapsible_row",
+          "name": "Talla ideal",
+          "settings": {
+            "heading": "¿Cómo puedo determinar cuál es mi talla?",
+            "icon": "ruler",
+            "row_content": "<p>Si no estás segura de cuál es tu talla, no te preocupes. Puedes consultar los detalles de las medidas en nuestra guía de tallas.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QDkgkK": {
+          "type": "collapsible_row",
+          "name": "Garantía",
+          "settings": {
+            "heading": "¿Cuál es el período de garantía para mis zapatos?",
+            "icon": "check_mark",
+            "row_content": "<p>Todos nuestros zapatos están garantizados por un período de 90 días a partir de la fecha de compra. Esta garantía cubre únicamente defectos de fabricación y no incluye daños causados por uso indebido, accidentes o desgaste normal del producto. Para hacer valer esta garantía, es necesario presentar el comprobante de compra. La garantía se limita a la reparación o reemplazo del producto, según nuestro criterio. Asegúrate de seguir nuestras instrucciones para garantizar un proceso sin problemas.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7cyDeh": {
+          "type": "collapsible_row",
+          "name": "Precios tiendas",
+          "settings": {
+            "heading": "¿Los productos y precios son los mismos en tiendas físicas como en la tienda en línea?",
+            "icon": "question_mark",
+            "row_content": "<p>Puedes encontrar la mayoría de nuestros productos tanto en tiendas físicas como en línea. La disponibilidad de cada estilo puede variar según el inventario de cada tienda. Además, los precios pueden variar ocasionalmente debido a promociones u ofertas específicas.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_QJMejV",
+        "collapsible_row_J3VgqC",
+        "collapsible_row_Ni4qAd",
+        "collapsible_row_QDkgkK",
+        "collapsible_row_7cyDeh"
+      ],
+      "name": "Sobre el producto",
+      "settings": {
+        "caption": "",
+        "heading": "Sobre el producto",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_BymyMA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_fXTbUL": {
+          "type": "collapsible_row",
+          "name": "Tiendas",
+          "settings": {
+            "heading": "¿Tienen tiendas físicas?",
+            "icon": "check_mark",
+            "row_content": "<p>Sí, contamos con tiendas físicas. Si deseas conocer la ubicación y los horarios de atención, puedes consultarlos en el siguiente enlace  <a href=\"https://ladypaulina.com/pages/encuentra-tu-tienda-lady-paulina-mas-cercana\" target=\"_blank\" title=\"Ubicación tiendas\">aquí</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ax9n8L": {
+          "type": "collapsible_row",
+          "name": "Franquicia",
+          "settings": {
+            "heading": "¿Ofrecen esquema de franquicias?",
+            "icon": "check_mark",
+            "row_content": "<p>Por el momento no manejamos el esquema de franquicias. Todas nuestras tiendas son administradas directamente por Manufacturera Aguirre de León S.A. de C.V.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WQkcmn": {
+          "type": "collapsible_row",
+          "name": "Marca",
+          "settings": {
+            "heading": "¿Son una marca mexicana?",
+            "icon": "check_mark",
+            "row_content": "<p>Somos una empresa orgullosamente mexicana. Todo nuestro producto es hecho en México por manos mexicanas.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_fXTbUL",
+        "collapsible_row_ax9n8L",
+        "collapsible_row_WQkcmn"
+      ],
+      "name": "Sobre la marca",
+      "settings": {
+        "caption": "",
+        "heading": "Sobre la marca",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_V6i7yH",
+    "collapsible_content_F3WMbX",
+    "collapsible_content_EeDmU8",
+    "collapsible_content_8Yx9q6",
+    "collapsible_content_BymyMA"
+  ]
+}

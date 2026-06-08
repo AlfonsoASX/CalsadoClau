@@ -1,0 +1,153 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_zzgWAb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Key7H7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>¿Cómo tomar tus medidas?</h2>",
+            "heading_size": "h1"
+          }
+        },
+        "text_bUckLt": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Para encontrar tu talla ideal, sigue estos simples pasos. Recuerda medir ambos pies y usar la medida del pie más largo.</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Key7H7",
+        "text_bUckLt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_FQJpyK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_edFWfD": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>¿Cómo medir tu pie?</h2>"
+          }
+        },
+        "text_kTapci": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>➡️ Coloca una hoja de papel en el suelo, pegada a una pared.<br/><br/>➡️ Párate sobre el papel con el talón tocando la pared.<br/><br/>➡️ Marca en el papel el punto más largo de tu pie (generalmente el dedo más largo).<br/><br/>➡️ Mide la distancia desde la pared hasta la marca.</h2>"
+          }
+        },
+        "heading_66VPVd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Consulta la tabla de tallas para elegir la medida que mejor se ajuste a ti.</h2>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_edFWfD",
+        "text_kTapci",
+        "heading_66VPVd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_gLVGCx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jeGcX9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Consulta la tabla de tallas para elegir la medida que mejor se ajuste a ti.</h2>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jeGcX9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_HH3zPX": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_CHcFmf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Gu_a_de_tallas.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_CHcFmf"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_zzgWAb",
+    "rich_text_FQJpyK",
+    "rich_text_gLVGCx",
+    "slideshow_HH3zPX"
+  ]
+}

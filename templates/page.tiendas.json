@@ -1,0 +1,203 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_jw4ECy": {
+      "type": "multirow",
+      "blocks": {
+        "row_Jarfcx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Mulza.jpg",
+            "caption": "",
+            "heading": "Mulza",
+            "text": "<p><strong>Blvd. Aeropuerto #843, col. Predio Santa Anita, C.P. 37295.  Local 53</strong></p><p><strong>Horario</strong></p><ul><li>Lunes a viernes 10:30 am a 8:30 pm.</li><li>Sábado 10:00 am a 9:00 pm.</li><li>Domingo 10:00 am a 8:00 pm</li></ul>",
+            "button_label": "Ver Ubicación",
+            "button_link": "https://maps.app.goo.gl/c2X7JaW2aMp5uGXg8"
+          }
+        }
+      },
+      "block_order": [
+        "row_Jarfcx"
+      ],
+      "name": "Mulza",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h0",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multirow_CqfVhe": {
+      "type": "multirow",
+      "blocks": {
+        "row_Vyj4Pf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Tienda_de_fabrica.jpg",
+            "caption": "",
+            "heading": "Tienda de Fábrica",
+            "text": "<p><strong>Blvd. Tepeyac #1106 Col. San Nicolás CP: 37480</strong></p><p><strong>Horario</strong></p><ul><li>Lunes a viernes 10:00am a 6:30pm</li><li>Sábado 10:00am a 2:00pm</li></ul>",
+            "button_label": "Ver Ubicación",
+            "button_link": "https://maps.app.goo.gl/Qk6EY3zir6ZjExmB7"
+          }
+        }
+      },
+      "block_order": [
+        "row_Vyj4Pf"
+      ],
+      "name": "Tienda de fabrica",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multirow_QTJLwn": {
+      "type": "multirow",
+      "blocks": {
+        "row_ciiXDG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Hilvana.jpg",
+            "caption": "",
+            "heading": "Hilvana",
+            "text": "<p><strong>Prol. Av. Zaragoza 80, El Rosario, 76177 Santiago de Querétaro, Qro. Local 41</strong></p><p><strong>Horario</strong></p><ul><li>Lunes a domingo 11:00am a 8:00pm</li></ul>",
+            "button_label": "Ver Ubicación",
+            "button_link": "https://maps.app.goo.gl/xBTqU3Z9HWL9cQ8R6"
+          }
+        }
+      },
+      "block_order": [
+        "row_ciiXDG"
+      ],
+      "name": "Hilvana",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h0",
+        "text_style": "subtitle",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multirow_74XRV3": {
+      "type": "multirow",
+      "blocks": {
+        "row_deg437": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Galeria_del_calzado.jpg",
+            "caption": "",
+            "heading": "Galería del Calzado",
+            "text": "<p><strong>Avenida México 3225, Guadalajara, Jalisco Local 21</strong></p><p><strong>Horario</strong></p><ul><li>Lunes a sábado de 11:00am a 8:30pm.</li><li>Domingos 11:00am a 8:00pm</li></ul>",
+            "button_label": "Ver Ubicación",
+            "button_link": "https://maps.app.goo.gl/jgUsWWPzKjQoCr618"
+          }
+        }
+      },
+      "block_order": [
+        "row_deg437"
+      ],
+      "name": "Galeria ",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multirow_mGfHYH": {
+      "type": "multirow",
+      "blocks": {
+        "row_3wpFan": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/La_Gran_Plaza.jpg",
+            "caption": "",
+            "heading": "La Gran Plaza",
+            "text": "<p><strong>Av. Ignacio L Vallarta 3959, Don Bosco Vallarta, Zapopan, Jalisco. Local G-17 Segundo piso</strong></p><p><strong>Horario</strong></p><ul><li>Lunes a domingo de 11:00am a 9:00pm.</li></ul>",
+            "button_label": "Ver Ubicación",
+            "button_link": "https://maps.app.goo.gl/VQgPrRo5XTaV7NuC7"
+          }
+        }
+      },
+      "block_order": [
+        "row_3wpFan"
+      ],
+      "name": "Gran Plaza",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h0",
+        "text_style": "subtitle",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_jw4ECy",
+    "multirow_CqfVhe",
+    "multirow_QTJLwn",
+    "multirow_74XRV3",
+    "multirow_mGfHYH"
+  ]
+}
