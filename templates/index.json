@@ -396,29 +396,6 @@
     },
     "17328927497a0de5c5": {
       "type": "apps",
-      "blocks": {
-        "instafeed_app_block_dpP4fi": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "¡Síguenos en Instagram!",
-            "title_color": "#B88925",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 25,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": true,
-            "link_alignment": "center",
-            "link_color": "#B88925",
-            "background_color": "rgba(0,0,0,0)",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_dpP4fi"
-      ],
       "settings": {
         "include_margins": false
       }

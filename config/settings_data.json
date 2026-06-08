@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/LOGOTIPO_SIN_FONDO.png",
-    "logo_width": 210,
-    "favicon": "shopify://shop_images/ISOTIPO_SIN_FONDO.png",
+    "logo": "shopify://shop_images/logo-calzado-clau.webp",
+    "logo_width": 80,
+    "favicon": "shopify://shop_images/logo-calzado-clau.webp",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#B88925",
     "gradient_accent_1": "",
@@ -152,19 +152,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "13768625480086291342": {
-        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
-        "disabled": false,
-        "settings": {}
-      },
-      "1232542678405107163": {
-        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -316,9 +304,9 @@
       ".col_menu {float: left; margin: -5px 0px;}",
       ".list-menu--disclosure {width: 40rem !important;}",
       ".col_menu img {width: 200px;}",
-      ".header__menu-item[href*=\"rebajas\"], .menu-drawer__menu-item[href*=\"rebajas\"] {color: #C74343; font-weight: 600;}",
+      ".header__menu-item[href*=\"rebajas\"],.menu-drawer__menu-item[href*=\"rebajas\"] {color: #c74343; font-weight: 600;}",
       ".header__submenu li a {color: black;}",
-      ".product-form__input input[type=\"radio\"]:checked + label {background-color: #B88925; border-color: #B88925; color: #ffffff;}"
+      ".product-form__input input[type=\"radio\"]:checked + label {background-color: #b88925; border-color: #b88925; color: #ffffff;}"
     ]
   }
 }

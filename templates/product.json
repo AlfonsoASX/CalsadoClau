@@ -27,12 +27,6 @@
           "type": "price",
           "settings": {}
         },
-        "59e37317-4056-49ef-929d-82483c9ac05e": {
-          "type": "shopify://apps/aplazo-banner/blocks/product-banner/baf789e0-a296-4b10-bc87-11417720714b",
-          "settings": {
-            "aplazo_theme": ""
-          }
-        },
         "popup_F7pbDJ": {
           "type": "popup",
           "settings": {
@@ -77,7 +71,6 @@
         "vendor",
         "title",
         "price",
-        "59e37317-4056-49ef-929d-82483c9ac05e",
         "popup_F7pbDJ",
         "variant_picker",
         "quantity_selector",
