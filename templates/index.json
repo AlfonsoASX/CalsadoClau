@@ -17,7 +17,6 @@
           "name": "Banner Para mamá con Amor",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_PRINCIPAL_a7303f20-4eba-4e5b-9654-499ea2f51db0.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -36,7 +35,7 @@
           "type": "slide",
           "name": "Nueva Colección SS26",
           "settings": {
-            "image": "shopify://shop_images/Banner_abril.jpg",
+            "image": "shopify://shop_images/portada.png",
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
@@ -56,7 +55,6 @@
           "name": "Rebajas 1",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_PRINCIPAL_a274742a-440c-40d7-8cc4-502823443fec.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -76,7 +74,6 @@
           "name": "Rebajas 2",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_PRINCIPAL_79411098-93a3-4dfc-8030-c656569e148e.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -96,7 +93,6 @@
           "name": "Confort",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_PRINCIPAL_98edd322-74e2-443b-9d2a-cddc530137b7.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -137,7 +133,6 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_MOVIL_12f5af12-0cca-4b4d-99d5-5723dea87851.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -157,7 +152,6 @@
           "name": "Rebajas 1",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_MOVIL.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -177,7 +171,6 @@
           "name": "Rebajas 2",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/GIF-1200.gif",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -191,32 +184,12 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_RWqp3e": {
-          "type": "slide",
-          "name": "Nueva Coleccion SS26",
-          "settings": {
-            "image": "shopify://shop_images/Banner_movil_abril_368b3196-28d7-458d-b418-059558896131.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections",
-            "button_style_secondary": true,
-            "box_align": "bottom-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_w8HCyz",
         "slide_f8fe4C",
-        "slide_dyxraY",
-        "slide_RWqp3e"
+        "slide_dyxraY"
       ],
       "name": "Diapositiva movil",
       "settings": {
@@ -232,30 +205,39 @@
     "d7da1bfb-1266-4316-8e3e-d1173eefb114": {
       "type": "multicolumn",
       "blocks": {
-        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-0": {
+        "column_cFcTWe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/SANDALIAS_199cf24f-6845-4699-8967-6801ce5fb8f8.jpg",
+            "image": "shopify://shop_images/3.png",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify://collections/sandalia"
+            "link": "shopify://collections"
+          }
+        },
+        "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections"
           }
         },
         "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BALERINAS_Y_MOCASINES.png",
+            "image": "shopify://shop_images/2.png",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify://collections/balerinas-y-mocasines"
+            "link": "shopify://collections"
           }
         },
         "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ZAPATILLAS.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -265,7 +247,6 @@
         "6da1d28d-616a-49ce-b7b7-ccafa6dbacc0": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/TENIS.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -275,7 +256,6 @@
         "7b48c036-18bf-42eb-a0c9-2e7366cda03e": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BOTAS_Y_BOTINES.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -285,7 +265,6 @@
         "7e0d5d8e-876b-4a21-9f6b-59044c96b016": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BOLSAS_Y_ACCESORIOS.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -294,6 +273,7 @@
         }
       },
       "block_order": [
+        "column_cFcTWe",
         "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-0",
         "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-1",
         "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-2",
@@ -317,6 +297,50 @@
         "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 0
+      }
+    },
+    "customer_testimonials": {
+      "type": "customer-testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "quote": "Me encantó la calidad y llegaron súper rápido. Los zapatos se ven tal como en las fotos.",
+            "author": "Mariana G.",
+            "meta": "Compra verificada"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "quote": "Muy cómodos para usarlos todo el día. La talla me quedó perfecta.",
+            "author": "Laura M.",
+            "meta": "León, Gto."
+          }
+        },
+        "testimonial_3": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "quote": "Buena atención y el paquete llegó protegido. Volvería a comprar.",
+            "author": "Andrea R.",
+            "meta": "Cliente Calzado Clau"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2",
+        "testimonial_3"
+      ],
+      "settings": {
+        "heading": "Opiniones de clientas",
+        "subheading": "<p>Experiencias reales con estilos pensados para acompañarte todos los días.</p>",
+        "color_scheme": "background-1",
+        "padding_top": 56,
+        "padding_bottom": 44
       }
     },
     "featured_collection": {
@@ -400,100 +424,6 @@
         "include_margins": false
       }
     },
-    "0add853d-6b69-4e4c-accb-ef0448894f1d": {
-      "type": "image-banner",
-      "name": "Banner movil",
-      "settings": {
-        "image": "shopify://shop_images/Banner_Mobile_695_x_1024_px_2_0fbe14bf-19ea-4341-bc7d-fb3a0727affe.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
-    "cf6455a4-f7fa-415c-ac25-93b0fbb4425c": {
-      "type": "image-banner",
-      "blocks": {
-        "template--18487427236141__cf6455a4-f7fa-415c-ac25-93b0fbb4425c-1684488579a43a9551-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify://pages/tiendas",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18487427236141__cf6455a4-f7fa-415c-ac25-93b0fbb4425c-1684488579a43a9551-2"
-      ],
-      "disabled": true,
-      "name": "Banner escritorio",
-      "settings": {
-        "image": "shopify://shop_images/BANNER_DE_TIENDAS_NUEVAS.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "customer_testimonials": {
-      "type": "customer-testimonials",
-      "blocks": {
-        "testimonial_1": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "quote": "Me encantó la calidad y llegaron súper rápido. Los zapatos se ven tal como en las fotos.",
-            "author": "Mariana G.",
-            "meta": "Compra verificada"
-          }
-        },
-        "testimonial_2": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "quote": "Muy cómodos para usarlos todo el día. La talla me quedó perfecta.",
-            "author": "Laura M.",
-            "meta": "León, Gto."
-          }
-        },
-        "testimonial_3": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "quote": "Buena atención y el paquete llegó protegido. Volvería a comprar.",
-            "author": "Andrea R.",
-            "meta": "Cliente Calzado Clau"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_1",
-        "testimonial_2",
-        "testimonial_3"
-      ],
-      "settings": {
-        "heading": "Opiniones de clientas",
-        "subheading": "<p>Experiencias reales con estilos pensados para acompañarte todos los días.</p>",
-        "color_scheme": "background-1",
-        "padding_top": 56,
-        "padding_bottom": 44
-      }
-    },
     "newsletter_discount": {
       "type": "newsletter",
       "blocks": {
@@ -526,6 +456,39 @@
         "padding_top": 48,
         "padding_bottom": 56
       }
+    },
+    "cf6455a4-f7fa-415c-ac25-93b0fbb4425c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18487427236141__cf6455a4-f7fa-415c-ac25-93b0fbb4425c-1684488579a43a9551-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify://pages/tiendas",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18487427236141__cf6455a4-f7fa-415c-ac25-93b0fbb4425c-1684488579a43a9551-2"
+      ],
+      "disabled": true,
+      "name": "Banner escritorio",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -537,7 +500,6 @@
     "multirow_UXqzyY",
     "17328927497a0de5c5",
     "newsletter_discount",
-    "0add853d-6b69-4e4c-accb-ef0448894f1d",
     "cf6455a4-f7fa-415c-ac25-93b0fbb4425c"
   ]
 }
