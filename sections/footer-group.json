@@ -25,7 +25,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Atención al cliente",
-            "menu": "footer-atenci-n-a-clientes"
+            "menu": ""
           }
         },
         "brand_information_HJfL8p": {
@@ -41,8 +41,8 @@
         "brand_information_HJfL8p"
       ],
       "custom_css": [
-        ".footer__list-social li a {background: #B88925; border-radius: 100px; color: white; margin: 2px;}",
-        "footer,footer img {background: #F7F7F7;}",
+        ".footer__list-social li a {background: #b88925; border-radius: 100px; color: white; margin: 2px;}",
+        "footer,footer img {background: #f7f7f7;}",
         "footer div {border: none;}",
         "footer input {background: white;}"
       ],

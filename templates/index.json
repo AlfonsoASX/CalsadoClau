@@ -238,6 +238,7 @@
         "template--18188136743213__d7da1bfb-1266-4316-8e3e-d1173eefb114-1679989748bb988c54-2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/2.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -247,6 +248,7 @@
         "6da1d28d-616a-49ce-b7b7-ccafa6dbacc0": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,6 +258,7 @@
         "7b48c036-18bf-42eb-a0c9-2e7366cda03e": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -371,53 +374,6 @@
         "padding_bottom": 0
       }
     },
-    "multirow_UXqzyY": {
-      "type": "multirow",
-      "blocks": {
-        "row_8pNAYL": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "Namibia - Calzado Clau Confort",
-            "heading": "Estilo Que Se Siente",
-            "text": "<p>Comodidad en cada paso. 🥿✨</p>",
-            "button_label": "👉 Encuentra tu Favorito",
-            "button_link": "shopify://collections/balerinas-y-mocasines"
-          }
-        },
-        "row_ER6aYL": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "Clarisa - Calzado Clau",
-            "heading": "Glamour en Cada Paso",
-            "text": "<p>Tus aliadas perfecta para destacar. 👠<strong>✨</strong></p>",
-            "button_label": "💫 Consíguelas Hoy",
-            "button_link": "shopify://collections/zapatilla"
-          }
-        }
-      },
-      "block_order": [
-        "row_8pNAYL",
-        "row_ER6aYL"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "subtitle",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "right",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "17328927497a0de5c5": {
       "type": "apps",
       "settings": {
@@ -497,7 +453,6 @@
     "d7da1bfb-1266-4316-8e3e-d1173eefb114",
     "customer_testimonials",
     "featured_collection",
-    "multirow_UXqzyY",
     "17328927497a0de5c5",
     "newsletter_discount",
     "cf6455a4-f7fa-415c-ac25-93b0fbb4425c"
